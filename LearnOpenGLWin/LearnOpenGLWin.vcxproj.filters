@@ -13,10 +13,42 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\dep">
+      <UniqueIdentifier>{c2f9ed63-6099-41c1-abdf-8ba468972ae2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lesson">
+      <UniqueIdentifier>{8425f88e-3c57-49f4-bd8f-277c7df7798a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lesson\GettingStarted">
+      <UniqueIdentifier>{257b8475-3753-4e93-8c4e-a29a51647913}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lesson">
+      <UniqueIdentifier>{ea024ef5-c0d9-48b3-bed8-75d8c8e02d5a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LearnOpenGLWin.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\glad.c">
+      <Filter>Source Files\dep</Filter>
+    </ClCompile>
+    <ClCompile Include="1_1_HelloWindow.cpp">
+      <Filter>Source Files\lesson\GettingStarted</Filter>
+    </ClCompile>
+    <ClCompile Include="ILesson.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ILesson.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Const.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="1_1_HelloWindow.h">
+      <Filter>Header Files\Lesson</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
