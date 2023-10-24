@@ -36,8 +36,8 @@
     <ClCompile Include="1_1_HelloWindow.cpp">
       <Filter>Source Files\lesson\GettingStarted</Filter>
     </ClCompile>
-    <ClCompile Include="ILesson.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="1_2_Hello_Triangle.cpp">
+      <Filter>Source Files\lesson\GettingStarted</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -50,5 +50,19 @@
     <ClInclude Include="1_1_HelloWindow.h">
       <Filter>Header Files\Lesson</Filter>
     </ClInclude>
+    <ClInclude Include="1_2_Hello_Triangle.h">
+      <Filter>Header Files\Lesson</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader\1_2.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shader\1_2.frag">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

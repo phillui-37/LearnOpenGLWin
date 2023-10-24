@@ -1,3 +1,5 @@
+#include "Const.h"
+#ifdef LESSON_1_1
 #include "1_1_HelloWindow.h"
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height)
@@ -62,3 +64,4 @@ void Lesson::loop(GLFWwindow* window)
 	glfwPollEvents();
 	glfwSwapBuffers(window); // double buffer
 }
+#endif
