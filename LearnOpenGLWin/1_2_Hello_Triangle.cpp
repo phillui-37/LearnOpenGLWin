@@ -244,7 +244,7 @@ int Lesson::start(unsigned w, unsigned h)
 #else
         loop(window, &program, &VAO);
 #endif
-    
+    glfwTerminate();
     return 0;
 };
 

@@ -39,21 +39,30 @@
     <ClCompile Include="1_2_Hello_Triangle.cpp">
       <Filter>Source Files\lesson\GettingStarted</Filter>
     </ClCompile>
+    <ClCompile Include="1_3_Shaders.cpp">
+      <Filter>Source Files\lesson\GettingStarted</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ILesson.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Const.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="1_1_HelloWindow.h">
+    <ClInclude Include="1_3_Shaders.h">
       <Filter>Header Files\Lesson</Filter>
     </ClInclude>
-    <ClInclude Include="1_2_Hello_Triangle.h">
+    <ClInclude Include="include\1_1_HelloWindow.h">
       <Filter>Header Files\Lesson</Filter>
     </ClInclude>
-    <ClInclude Include="util.h">
+    <ClInclude Include="include\1_2_Hello_Triangle.h">
+      <Filter>Header Files\Lesson</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Const.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ILesson.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\util.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -62,6 +71,15 @@
       <Filter>Resource Files</Filter>
     </None>
     <None Include="shader\1_2.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shader\1_3.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shader\1_3.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shader\1_3_ex2.vert">
       <Filter>Resource Files</Filter>
     </None>
   </ItemGroup>

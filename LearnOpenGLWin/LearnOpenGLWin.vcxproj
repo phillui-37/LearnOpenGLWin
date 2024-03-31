@@ -137,19 +137,25 @@
   <ItemGroup>
     <ClCompile Include="1_1_HelloWindow.cpp" />
     <ClCompile Include="1_2_Hello_Triangle.cpp" />
+    <ClCompile Include="1_3_Shaders.cpp" />
     <ClCompile Include="LearnOpenGLWin.cpp" />
     <ClCompile Include="src\glad.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="1_1_HelloWindow.h" />
-    <ClInclude Include="1_2_Hello_Triangle.h" />
-    <ClInclude Include="Const.h" />
-    <ClInclude Include="ILesson.h" />
-    <ClInclude Include="util.h" />
+    <ClInclude Include="1_3_Shaders.h" />
+    <ClInclude Include="include\1_1_HelloWindow.h" />
+    <ClInclude Include="include\1_2_Hello_Triangle.h" />
+    <ClInclude Include="include\Const.h" />
+    <ClInclude Include="include\ILesson.h" />
+    <ClInclude Include="include\Shader.h" />
+    <ClInclude Include="include\util.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="shader\1_2.frag" />
     <None Include="shader\1_2.vert" />
+    <None Include="shader\1_3.frag" />
+    <None Include="shader\1_3.vert" />
+    <None Include="shader\1_3_ex2.vert" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

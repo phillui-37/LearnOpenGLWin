@@ -2,7 +2,7 @@
 #ifndef __CONST_H__
 #define __CONST_H__
 
-#define LESSON_1_2
+#define LESSON_1_3
 constexpr unsigned HEIGHT = 768;
 constexpr unsigned WIDTH = 1024;
 
@@ -13,6 +13,10 @@ constexpr unsigned WIDTH = 1024;
 
 #ifdef LESSON_1_2
 #include "1_2_Hello_Triangle.h"
+#endif
+
+#ifdef LESSON_1_3
+#include "1_3_Shaders.h"
 #endif
 
 #endif // __CONST_H__
